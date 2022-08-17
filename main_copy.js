@@ -17,7 +17,7 @@ function calcular(event) {
     textResult.innerHTML = 'É melhor usar Gasolina'
   }
 
-  textAlcool.innerHTML = 'Preço do Álcool R$' + alcool
+  textAlcool.innerHTML = 'Preço do Álcool R$ ' + alcool
   textGasolina.innerHTML = 'preço da Gasolina R$ ' + gasolina
 
   contentResult.classList.remove('hide')
